@@ -11,7 +11,8 @@ local get_visual = function(args, parent)
 end
 
 return {
-  s({trig="be", dscr="expands to begin an environment", snippetType="autosnippet"},
+  s(
+    {trig="be", dscr="expands to begin an environment", snippetType="autosnippet"},
     fmta(
       [[
         \begin{<>}
@@ -26,8 +27,49 @@ return {
     )
   ),
 
-  s({trig="it", dscr="italic", snippetType="autosnippet"},
+  s(
+    {trig="it", dscr="italic", snippetType="autosnippet"},
     fmta("\\textit{<>}",
+      {
+        d(1, get_visual),
+      }
+    )
+  ),
+  s(
+    {trig="bf", dscr="bold", snippetType="autosnippet"},
+    fmta("\\textbf{<>}",
+      {
+        d(1, get_visual),
+      }
+    )
+  ),
+  s(
+    {trig="ul", dscr="underline", snippetType="autosnippet"},
+    fmta("\\underline{<>}",
+      {
+        d(1, get_visual),
+      }
+    )
+  ),
+  s(
+    {trig="s_", dscr="section", snippetType="autosnippet"},
+    fmta("\\section{<>}",
+      {
+        d(1, get_visual),
+      }
+    )
+  ),
+  s(
+    {trig="ss_", dscr="subsection", snippetType="autosnippet"},
+    fmta("\\subsection{<>}",
+      {
+        d(1, get_visual),
+      }
+    )
+  ),
+  s(
+    {trig="sss_", dscr="subsubsection", snippetType="autosnippet"},
+    fmta("\\subsubsection{<>}",
       {
         d(1, get_visual),
       }

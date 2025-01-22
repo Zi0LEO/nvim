@@ -12,7 +12,7 @@ end
 
 return {
   s(
-    {trig="be", dscr="expands to begin an environment", snippetType="autosnippet"},
+    {trig="b_", dscr="expands to begin an environment", snippetType="autosnippet"},
     fmta(
       [[
         \begin{<>}
@@ -28,7 +28,7 @@ return {
   ),
 
   s(
-    {trig="it", dscr="italic", snippetType="autosnippet"},
+    {trig="it_", dscr="italic", snippetType="autosnippet"},
     fmta("\\textit{<>}",
       {
         d(1, get_visual),

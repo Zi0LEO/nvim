@@ -30,10 +30,9 @@
   "snacks.nvim": { "branch": "main", "commit": "f7d07bcbc2b79e00088e8b71729b74dd39037280" },
   "telescope-ui-select.nvim": { "branch": "master", "commit": "6e51d7da30bd139a6950adf2a47fda6df9fa06d2" },
   "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" },
-  "timerly": { "branch": "main", "commit": "6207e6afdb1068aa97f525e311c8960d91523732" },
-  "typr": { "branch": "main", "commit": "a5d85c828e80b7a107889f6d0d4b1e2df960713b" },
+  "typr": { "branch": "main", "commit": "c80d6f3786cfc502014418f515b2ae666cae7f8b" },
   "undotree": { "branch": "master", "commit": "2556c6800b210b2096b55b66e74b4cc1d9ebbe4f" },
   "vimtex": { "branch": "master", "commit": "3f0bdcfbe8167c081cd83153910c871b681c1d8f" },
-  "volt": { "branch": "main", "commit": "9f04cd9029958435a5020b423b07da69a27c076f" },
+  "volt": { "branch": "main", "commit": "357b88862b60ef3a4154f4d25e3befe7c2f6b491" },
   "which-key.nvim": { "branch": "main", "commit": "1f8d414f61e0b05958c342df9b6a4c89ce268766" }
 }

@@ -6,11 +6,16 @@ return
   dependencies = "nvzone/volt",
 
   opts = {
-    minutes = { 0.3, 0.1},
+    minutes = { 25, 5 },
     cycle = true,
-    delay = 2,
+    delay = 5,
     on_finish = function()
-      vim.notify "Time's up"
+      local state = require "timerly.state"
+      if state.mode == "focus" then
+        vim.notify "Time's up, take a break"
+      else
+        vim.notify "It's time to resume"
+      end
     end,
   },
 }

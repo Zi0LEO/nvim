@@ -1,6 +1,6 @@
 -- minimal installations
 return {
-  'Hashino/doing.nvim',
+  dir='~/projects/doing.nvim',
   config = function ()
     require("doing").setup {
       doing_prefix = "",

@@ -1,4 +1,4 @@
-# nvim/
+# nvim config
 
 <a href="https://dotfyle.com/Zi0LEO/nvim"><img src="https://dotfyle.com/Zi0LEO/nvim/badges/plugins?style=flat" /></a>
 <a href="https://dotfyle.com/Zi0LEO/nvim"><img src="https://dotfyle.com/Zi0LEO/nvim/badges/leaderkey?style=flat" /></a>

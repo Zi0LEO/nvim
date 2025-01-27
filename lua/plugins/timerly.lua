@@ -1,7 +1,6 @@
 return
 {
-  dir="~/projects/timerly",
-  --dir ="~/projects/timerly",
+  "Zi0LEO/timerly",
   cmd = "TimerlyToggle",
   dependencies = "nvzone/volt",
 

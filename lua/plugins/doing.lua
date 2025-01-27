@@ -1,6 +1,6 @@
 -- minimal installations
 return {
-  dir='~/projects/doing.nvim',
+  "Zi0LEO/doing.nvim",
   config = function ()
     require("doing").setup {
       doing_prefix = "",

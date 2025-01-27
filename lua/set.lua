@@ -10,6 +10,9 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 
 vim.opt.wrap = false
+vim.opt.linebreak = true
+vim.opt.breakindent = true
+vim.opt.showbreak = '↪  '
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -31,3 +34,4 @@ vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
 vim.g.tex_flavor = "latex"
+vim.g.vim_markdown_frontmatter = 1

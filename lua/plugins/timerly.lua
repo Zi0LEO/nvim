@@ -1,11 +1,11 @@
 return
 {
-  "Zi0LEO/timerly",
+  dir="~/projects/timerly",
   cmd = "TimerlyToggle",
   dependencies = "nvzone/volt",
 
   opts = {
-    minutes = { 25, 5 },
+    minutes = { 25 , 5 },
     cycle = true,
     delay = 5,
     on_finish = function()

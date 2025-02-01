@@ -25,7 +25,8 @@ return
   },
 
   keys = {
-    {"<leader>gb", function() Snacks.git.blame_line() end, desc = "git blame line"},
-    {"<leader>lg", function() Snacks.lazygit() end, desc = "lazygit"},
+    {"<leader>gb", function() Snacks.git.blame_line() end, desc = "Git blame line"},
+    {"<leader>lg", function() Snacks.lazygit() end, desc = "Lazygit"},
+    {"<leader>n", function() Snacks.notifier.show_history() end, desc = "Show Notifications"},
   }
 }

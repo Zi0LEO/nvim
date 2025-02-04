@@ -5,14 +5,17 @@ return
   lazy = true,
   ft = "markdown",
   opts = {
-    disable_frontmatter = true,
-    workspaces = {
-      {
-        name = "SecondBrain",
-        path = "~/Documents/SecondBrain",
-      }
+    note_id_func = function(title)
+      return title
+    end,
+  disable_frontmatter = true,
+  workspaces = {
+    {
+      name = "SecondBrain",
+      path = "~/Documents/SecondBrain",
     }
   }
+}
 }
 
 
